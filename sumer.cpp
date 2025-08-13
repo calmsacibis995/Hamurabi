@@ -39,6 +39,9 @@ main(void)
 void
 Hamurabi::HamurabiLoop(void)
 {
+	eaten = harvest - storage;
+	acres = harvest / harvest_ratio;
+
 	while (year <= 10) {
 		YearStart();
 		CityInfo();

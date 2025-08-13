@@ -25,13 +25,13 @@ class Hamurabi {
 		int year = 1;		// Year counter
 		int plague = 0;		// Plague chance
 		int starved = 0;	// People who died due to starvation
-		int population = 100;	// City population
+		int population = 95;	// City population
 		int immigrants = 5;	// Number of immigrants to the city
-		int harvest = 0;	// Number of harvested bushels for a year
+		int harvest = 3000;	// Number of harvested bushels for a year
 		int harvest_ratio = 3;	// Bushel per acre harvest ratio
-		int eaten = 0;		// Number of bushels eaten by rats
+		int eaten = 0;	// Number of bushels eaten by rats
 		int storage = 2800;	// Number of bushels in storage
-		int acres =3000;		// Number of owned acres
+		int acres = 1000;	// Number of owned acres
 		int land_price = 0;	// Land price (bushels per acre)
 		int bought_acres = 0;	// Number of bought acres
 		int sold_acres = 0;	// Number of sold acres
